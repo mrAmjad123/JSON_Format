@@ -1,0 +1,67 @@
+You are given a resume as input. Please parse the resume and convert it into the following JSON format:
+
+{
+  "name": "Md Amjad Ansari",
+  "contact_information": {
+    "phone": "6200021311",
+    "email": "amjadaaa00786@gmail.com",
+    "address": "180, Siwan, Bihar(841203)"
+  },
+  "summary": "Professional Summary",
+  "experience": [
+    {
+      "job_title": "Job Title",
+      "company": "Company Name",
+      "location": "Location",
+      "start_date": "Start Date",
+      "end_date": "End Date",
+      "responsibilities": [
+        "Responsibility 1",
+        "Responsibility 2",
+        ...
+      ]
+    },
+    ...
+  ],
+  "education": [
+    {
+      "degree": "BTech",
+      "institution": "Lovely Professional University",
+      "location": "Phagwara, Punjab",
+      "graduation_date": "July 2025"
+    },
+    ...
+  ],
+  "skills": [
+    "Python",
+    "C++",
+    "R Programming"
+    "Java"
+    "HTML"
+    ...
+  ],
+  "certifications": [
+    {
+      "name": "Robotic Process Automation",
+      "institution": "Great Learning",
+      "date": "Feb 2023"
+    },
+    ...
+  ],
+  "projects": [
+    {
+      "name": "Personal AI Desktop Assistant",
+      "description": "Developed a personal AI desktop assistant using speech Recognition and pyttsx3 that performs various tasks such as 
+voice command recognition, providing weather updates, news summaries, managing calendars.",
+      "technologies": [
+        "Python Programming",
+        "Speech Recognition",
+        ...
+      ]
+    },
+    ...
+  ]
+}
+
+Input Resume:
+[Insert Resume Here]
